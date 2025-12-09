@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Terminal as TerminalIcon, Play, RefreshCw } from 'lucide-react';
+import { Terminal as TerminalIcon, RefreshCw } from 'lucide-react';
 import { INITIAL_TERMINAL_OUTPUT } from '../constants';
 
 const VALID_COMMANDS: Record<string, string> = {
